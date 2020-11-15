@@ -1,0 +1,16 @@
+current directory: C:/railsfriends/friends/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.5.1/ext/bootsnap
+C:/Ruby27-x64/bin/ruby.exe -I C:/Ruby27-x64/lib/ruby/2.7.0 -r ./siteconf20201113-6968-10bj1av.rb extconf.rb
+creating Makefile
+
+current directory: C:/railsfriends/friends/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.5.1/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: C:/railsfriends/friends/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.5.1/ext/bootsnap
+make "DESTDIR="
+generating bootsnap-x64-mingw32.def
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: C:/railsfriends/friends/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.5.1/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20201113-6968-1ww956r/bootsnap
