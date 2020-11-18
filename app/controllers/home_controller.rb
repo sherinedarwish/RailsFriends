@@ -3,6 +3,6 @@ class HomeController < ApplicationController
   end
 
   def about
-  	@about_me = "My name is Sherine"
+  	@about_me = "application is in process..."
   end
 end
