@@ -25,7 +25,7 @@
             <td><%= friend.last_name %></td>
             <td><%= friend.email %></td>
             <td><%= friend.phone %></td>
-            <td><%= friend.twitter %></td>
+            <td><p> @<%= friend.twitter %></p></td>
             <td><%= image_tag(friend.image , :width => 200, :height => 200) %></td>
             
             <td><%= link_to 'Show', friend %></td>
