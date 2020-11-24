@@ -7,8 +7,9 @@
     </h1>
     <%= @friend.email %> <br>
     <%= @friend.phone %> <br>
-    <%= @friend.twitter %><br> <br>
-  
+    <%= @friend.twitter %><br>
+    <%= image_tag(@friend.image , :width => 300 , :height => 300) %><br> <br>
+   
 
   <%= link_to 'Edit', edit_friend_path(@friend) %> 
 <%= link_to 'Back', friends_path %>

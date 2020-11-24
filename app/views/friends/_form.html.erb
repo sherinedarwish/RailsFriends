@@ -38,6 +38,11 @@
   </div>
 
   <div class="field form-group">
+    <%= form.label :image %>
+    <%= form.file_field :image , class:"form-control" , required: true%>
+  </div>
+
+  <div class="field form-group">
 
     <%= form.number_field :user_id,
     id: :friend_user_id, class:"form-control",value: current_user.id ,type: :hidden%>
